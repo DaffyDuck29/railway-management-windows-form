@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>                               Arrival    Departure
+1.KARACHI CANTT		17:30
+2.HYDERABAD JN	 19:40	19:48
+3.TANDO ADAM	 20:34	20:36
+4.SHAHDADPUR	 20:53	20:55
+5.NAWABSHAH       21:25      21:28
+6.MAHRABPUR	 22:31	22:33
+7.KHAIRPUR	 23:35	23:37
+8.ROHRI JN.	 00:15	00:40
+9.RAHIM YAR KH     02:51      02:53
+10.KHANPUR JN.	 03:45	03:50
+11.BAHAWALPUR	 05:37	05:41
+12.MULTAN CANTT	 07:00	07:20
+13.KHANEWAL JN	 08:00	08:05
+14.MIAN CHANNUN	 08:37	08:39
+15.CHICHAWATNI	 09:10	09:12
+16.SAHIWAL	 09:55	09:57
+17.OKARA               10:23      10:25
+18.PATTOKI	 10:59	11:01
+19.RAIWIND JN.	 11:40	11:45
+20.LAHORE JN.	 12:50	13:20
+21.GUJRANWALA	 14:20	14:25
+22.WAZIRABAD JN	 14:50	14:52
+23.GUJRAT	 15:08	15:10
+24.LALA MUSA       15:43       15:45
+25.JHELUM	 16:16	16:18
+26.GUJAR KHAN	 17:40	17:42
+27.CHAK LALA	 18:42	18:44
+28.RAWALPINDI       19:00</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>                                   Arriva    Departure
+1.KARACHI CITY                      05:50
+2.KARACHI CANTT	   06:00     06:15
+3.DRIGH ROAD	   06:30     06:32
+4.LANDHI JN.	   06:52     06:54
+5.KOTRI JN.	   08:27     08:29
+6.HYDERABAD JN	   08:45     08:55
+7.TANDO ADAM	   09:45     09:47
+8.SHAHDADPUR	   10:04     10:06
+9.NAWABSHAH JN    10:37     10:39
+10.PADIDAN	   11:21     11:23
+11.BHIRIA ROAD	   11:36     11:38
+12.MAHRABPUR	   11:59     12:01
+13.KHAIRPUR	   13:04     13:06
+14.ROHRI JN.	   13:45     14:10
+15.PANO AKIL	   14:38     14:40
+16.MIRPURMATHELO 15:29     15:31
+17.SADIKABAD	   16:25     16:27
+18.RAHIM YARKHAN 16:55     17:00
+19.KHANPUR JN.	   17:55     18:00
+20.LIAQUATPUR	   18:33     18:35
+21.DERANAWAB       19:06      19:08
+22.MUBARAKPUR	   19:29      19:31
+23.SAMASATA JN.	    20:06     20:08
+24.BAHAWALPUR	    20:25     20:30
+25.LODHRAN JN.	    20:53     20:55
+26.SHUJABAD	    21:31     21:33
+27.MULTAN CANTT	    22:15     22:45
+28.KHANEWAL JN	    23:23     23:35
+29.SHORKOT CANTT  00:25     00:30
+30.JHANG SADAR	    01:30     01:35
+31.SILLANWALI	    03:02     03:04
+32.SHAHINABAD	    03:24     03:26
+33.SARGODHA JN	    03:55     04:20
+34.BHALWAL	    04:48     04:50
+35.MALAKWAL JN	    05:50     05:55
+36.MANDIBAHAUDIN   06:23     06:25
+37.DINGA	                    06:52     06:54
+38.LALA MUSA JN      07:25     07:30
+39.JHELUM	    08:01      08:07
+40.GUJAR KHAN	    09:30      09:32
+41.RAWALPINDI	    10:40      11:10
+42.TAXILA CANTT	    11:47      11:49
+43.KOT NAJIBULLAH  12:34      12:36
+44.HARIPURHAZARA 12:56      12:58
+45.HAVELIAN              13:55</value>
+  </data>
+</root>
